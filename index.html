@@ -1,0 +1,331 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta name="description"
+        content="Sintoniza Prisma Stereo Online en vivo. La mejor música, programación variada y El Fogón con política al rojo vivo desde Armenia, Quindío.">
+    <meta name="keywords"
+        content="Prisma Stereo, Radio Online Armenia, Música en vivo, El Fogón Lorenzo Plaza, Radio Quindío">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <header id="inicio">
+        <div class="container menu">
+            <a href="#inicio" class="logo-link">
+                <img src="Imagenes/Logo Borde blanco.png" alt="Prisma Stereo" class="logo-img">
+            </a>
+            <input type="checkbox" id="menu-btn">
+            <label for="menu-btn" class="menu-icono">
+                <svg viewBox="0 0 24 24" fill="none" stroke="white" stroke-width="2" width="30" height="30">
+                    <path d="M3 12h18M3 6h18M3 18h18"></path>
+                </svg>
+            </label>
+            <nav class="navbar">
+
+
+                <ul>
+                    <li><a href="#inicio">Inicio</a></li>
+                    <li><a href="#programacion">Programación</a></li>
+                    <li><a href="#top5">Top 5</a></li>
+                    <li><a href="#staff">Panelistas</a></li>
+                    <li><a href="#contacto">Contacto</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <div class="player-bar" id="barra-reproductor">
+        <div class="container player-flex">
+            <div class="status-container">
+                <span id="piloto" class="piloto"></span>
+                <span class="en-vivo-text">EN VIVO</span>
+            </div>
+            <audio id="radioPlayer" controls class="audio-player">
+                <source src="https://play14.tikast.com:20097/stream?type=http&nocache=68" type="audio/mpeg">
+            </audio>
+        </div>
+    </div>
+
+    <section class="hero">
+        <div class="hero-overlay">
+            <div class="container">
+                <div class="hero-content">
+                    <h1>¡Sintoniza Prisma Stereo Online!</h1>
+                    <p>Somos la mejor opción para acompañar tu día con música variada y los programas más entretenidos.
+                        Conéctate con la mejor programación en vivo.</p>
+                    <a href="#programacion" class="btn-info">Ver Programación</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="programacion" class="programacion-container">
+        <div class="container">
+            <h2 class="titulo-seccion">Nuestra Programación</h2>
+            <div class="grid-programas">
+                <div class="card-programa">
+                    <span>08:00 - 1:00</span>
+                    <h3>Mañana Prisma</h3>
+                    <p>Los éxitos del momento para iniciar el día.</p>
+                </div>
+                <div class="card-programa">
+                    <span>1:00 pm - 2:00 pm</span>
+                    <h3>Programa el Fogon</h3>
+                    <p>Política al rojo vivo.</p>
+                </div>
+                <div class="card-programa">
+                    <span>2:00 - 23:00</span>
+                    <h3>Prisma Hit</h3>
+                    <p>Relájate con los mejores clásicos.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="publicidad-container">
+        <div class="container">
+            <div class="grid-publicidad">
+                <div class="item-publicidad">
+                    <img src="Imagenes/C123.png" alt="Liliana Benavides" class="img-publicidad">
+                </div>
+                <div class="item-publicidad">
+                    <img src="Imagenes/CR103.png" alt="Carlos Toro" class="img-publicidad">
+                </div>
+                <div class="item-publicidad">
+                    <img src="Imagenes/MATEO102.png" alt="Mateo a la Cámara" class="img-publicidad">
+                </div>
+                <div class="item-publicidad">
+                    <img src="Imagenes/CAMBIO RADICAL.png" alt="Quindio al Día" class="img-publicidad">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="top5" class="top5-section">
+        <div class="container">
+            <h2 class="titulo-seccion">Top 5 de Prisma</h2>
+            <div class="top5-list">
+                <div class="top-item">
+                    <span class="rank">01</span>
+                    <div class="top-img-container">
+                        <img src="Imagenes/Puesto_01.png" class="top-img">
+                    </div>
+                    <div class="top-info">
+                        <h4>ABCD</h4>
+                        <p>Daddy Yankee</p>
+                        <audio controls class="mini-player">
+                            <source src="Musica/01 Daddy Yankee ABCD  Feat. Alex Zurdo puesto 01.mp3" type="audio/mpeg">
+                        </audio>
+                    </div>
+                </div>
+                <div class="top-item">
+                    <span class="rank">02</span>
+                    <div class="top-img-container">
+                        <img src="Imagenes/Puesto_02.png" class="top-img">
+                    </div>
+                    <div class="top-info">
+                        <h4>La Villa</h4>
+                        <p>Ryan Castro</p>
+                        <audio controls class="mini-player">
+                            <source src="Musica/02 Ryan Castro, Kapo, Gangsta - LA VILLA puesto 02.mp3"
+                                type="audio/mpeg">
+                        </audio>
+                    </div>
+                </div>
+                <div class="top-item">
+                    <span class="rank">03</span>
+                    <div class="top-img-container">
+                        <img src="Imagenes/Puesto_03.png" class="top-img">
+                    </div>
+                    <div class="top-info">
+                        <h4>Ahí Voy</h4>
+                        <p>Playa Limbo</p>
+                        <audio controls class="mini-player">
+                            <source src="Musica/03 Playa Limbo - Ahí Voy puesto 03.mp3" type="audio/mpeg">
+                        </audio>
+                    </div>
+                </div>
+                <div class="top-item">
+                    <span class="rank">04</span>
+                    <div class="top-img-container">
+                        <img src="Imagenes/Puesto_04.png" class="top-img">
+                    </div>
+                    <div class="top-info">
+                        <h4>Me Gustas</h4>
+                        <p>Mike Bahía</p>
+                        <audio controls class="mini-player">
+                            <source src="Musica/04 Mike Bahía, Nanpa Básico -  ME GUSTAS puesto 04.MP3"
+                                type="audio/mpeg">
+                        </audio>
+                    </div>
+                </div>
+                <div class="top-item">
+                    <span class="rank">05</span>
+                    <div class="top-img-container">
+                        <img src="Imagenes/Puesto_05.png" class="top-img">
+                    </div>
+                    <div class="top-info">
+                        <h4>Hasta que me enamoro</h4>
+                        <p>Maria Becerra</p>
+                        <audio controls class="mini-player">
+                            <source src="Musica/05 Maria Becerra, TINI - HASTA QUE ME ENAMORO puesto 05.mp3"
+                                type="audio/mpeg">
+                        </audio>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="staff" class="staff-section">
+        <div class="container">
+            <h2 class="titulo-seccion">Nuestros Panelistas</h2>
+            <div class="staff-grid">
+                <div class="staff-card">
+                    <div class="staff-img-container">
+                        <img src="Imagenes/VeniceAI_wSxK38S.jpeg" alt="Alexander Plaza">
+                    </div>
+                    <div class="staff-info">
+                        <h3>Alexander Plaza</h3>
+                        <p>Director Creativo</p>
+                        <audio controls class="mini-player">
+                            <source src="Musica/Prisma stereo.mp3" type="audio/mpeg">
+                        </audio>
+                    </div>
+                </div>
+                <div class="staff-card">
+                    <div class="staff-img-container">
+                        <img src="Imagenes/foto fogon.jpeg" alt="Director Lorenzo Plaza">
+                    </div>
+                    <div class="staff-info">
+                        <h3>Programa el Fogón</h3>
+                        <p>Panelistas y Contenido</p>
+                        <audio controls class="mini-player">
+                            <source src="Musica/El Fogón.mp3" type="audio/mpeg">
+                        </audio>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="contacto" class="contacto-section">
+        <div class="container">
+            <h2 class="titulo-seccion">Contáctanos</h2>
+            <div class="contacto-wrapper">
+                <form class="contacto-form">
+                    <div class="input-group">
+                        <input type="text" placeholder="Nombre" required>
+                        <input type="email" placeholder="Correo" required>
+                    </div>
+                    <input type="text" placeholder="Canción que quieres pedir">
+                    <textarea placeholder="Tu mensaje..." rows="4"></textarea>
+                    <button type="submit" class="btn-info">Enviar Pedido</button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <div class="social-media-bar">
+        <a href="URL_A_TUS_REDES" target="_blank"></a>
+        <a href="https://www.facebook.com/prismastereo" target="_blank"><img src="Imagenes/facebook.png"></a>
+        <a href="https://www.youtube.com/@prismastereo" target="_blank"><img src="Imagenes/youtube.png"></a>
+        <a href="https://www.instagram.com/prismastereo" target="_blank"><img src="Imagenes/instagram.png"></a>
+        <a href="https://wa.me/573233647337?text=Hola%20amigos%20de%20Prisma%20Stereo!" target="_blank"><img
+                src="Imagenes/whatsapp.png"></a>
+    </div>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2026 Prisma Stereo Online. Todos los derechos reservados.</p>
+        </div>
+    </footer>
+
+    <script>
+        const audio = document.getElementById('radioPlayer');
+        const piloto = document.getElementById('piloto');
+        const barra = document.getElementById('barra-reproductor');
+
+        if (audio && piloto && barra) {
+            audio.onplay = () => {
+                piloto.classList.add('piloto-activo');
+                // Cambié el verde por un degradado de naranja a naranja oscuro
+                barra.style.background = "linear-gradient(90deg, #ee700a, #b35408)";
+            };
+            audio.onpause = () => {
+                piloto.classList.remove('piloto-activo');
+                barra.style.background = "linear-gradient(90deg, #9e0c0c, #ce1212)";
+            };
+        }
+
+        const todosLosAudios = document.querySelectorAll('audio');
+        todosLosAudios.forEach(a => {
+            a.addEventListener('play', () => {
+                todosLosAudios.forEach(otro => { if (otro !== a) otro.pause(); });
+            });
+        });
+
+        //  formulario
+        const formulario = document.querySelector('.contacto-form');
+
+        formulario.addEventListener('submit', (e) => {
+            e.preventDefault(); // Evita que la página se recargue
+
+            // 1. Capturamos los valores de los campos
+            const nombre = formulario.querySelector('input[placeholder="Nombre"]').value;
+            const correo = formulario.querySelector('input[placeholder="Correo"]').value;
+            const cancion = formulario.querySelector('input[placeholder="Canción que quieres pedir"]').value;
+            const mensaje = formulario.querySelector('textarea').value;
+
+            // 2. Tu número de WhatsApp (ya lo tienes en el footer: 573136219690)
+            const telefono = "573233647337";
+
+            // 3. Creamos el mensaje con formato para que se vea ordenado
+            const textoWhatsApp = `*NUEVO PEDIDO - PRISMA STEREO*%0A%0A` +
+                `*Nombre:* ${nombre}%0A` +
+                `*Correo:* ${correo}%0A` +
+                `*Canción:* ${cancion}%0A` +
+                `*Mensaje:* ${mensaje}`;
+
+            // 4. Creamos el enlace final
+            const url = `https://wa.me/${telefono}?text=${textoWhatsApp}`;
+
+            // 5. Abrimos WhatsApp en una nueva pestaña
+            window.open(url, '_blank');
+
+            // Opcional: Limpiar el formulario después de enviar
+            formulario.reset();
+        });
+
+        // 1. Desplazamiento Suave Unificado para Logo e Inicio
+        document.querySelectorAll('.navbar a, .logo-link').forEach(enlace => {
+            enlace.addEventListener('click', function (e) {
+                const targetId = this.getAttribute('href');
+                if (targetId.startsWith("#")) {
+                    e.preventDefault();
+                    const targetElement = document.querySelector(targetId);
+                    if (targetElement) {
+                        // Si es inicio, vamos al punto 0 absoluto (arriba de todo)
+                        const offset = (targetId === "#inicio") ? 0 : targetElement.offsetTop - 90;
+                        window.scrollTo({
+                            top: offset,
+                            behavior: 'smooth'
+                        });
+                    }
+                }
+            });
+        });
+        // 2. Efecto de "Click" visual en los botones
+        const botones = document.querySelectorAll('.btn-info');
+        botones.forEach(boton => {
+            boton.addEventListener('mousedown', () => boton.style.transform = "scale(0.95)");
+            boton.addEventListener('mouseup', () => boton.style.transform = "scale(1.05)");
+        });
+    </script>
+
+
+</body>
+
+</html>
