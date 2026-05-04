@@ -1,0 +1,1 @@
+SELECT * FROM prisma_stereo_db.programacion;
